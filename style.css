@@ -1,0 +1,15 @@
+
+:root{--primary:#2563eb;--muted:#6b7280;}
+*{box-sizing:border-box}
+body{font-family:'Cairo',sans-serif;background:#f9fafc;color:#111;margin:0;padding:0}
+.navbar-brand{font-weight:700}
+.hero{background:#eef2ff}
+.card-service{border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.06);overflow:hidden;transition:transform .2s}
+.card-service:hover{transform:translateY(-6px)}
+.service-img{height:160px;object-fit:cover;width:100%}
+.service-body{padding:14px}
+.service-price{color:var(--primary);font-weight:700;font-size:1.05rem}
+.price-old{text-decoration:line-through;color:#888;margin-left:8px}
+.help-btn{position:fixed;left:18px;bottom:18px;background:var(--primary);color:white;border:0;padding:12px;border-radius:50%;box-shadow:0 6px 18px rgba(37,99,235,0.2);cursor:pointer}
+.speaker-icon{font-size:20px}
+.modal-content{direction:rtl}
